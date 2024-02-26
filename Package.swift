@@ -12,6 +12,7 @@ let package = Package(
             targets: ["DocCTest"]),
     ],
     dependencies: [
+        // even more dependencies
         // other dependencies
         //.package(url: "https://github.com/apple/swift-docc-plugin", from: "1.1.0"),
     ],
