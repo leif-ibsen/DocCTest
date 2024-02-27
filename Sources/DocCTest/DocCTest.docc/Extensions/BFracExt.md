@@ -1,18 +1,12 @@
 # ``DocCTest/BFraction``
 
-<!--@START_MENU_TOKEN@-->Summary<!--@END_MENU_TOKEN@-->
-
-## Overview
-
-<!--@START_MENU_TOKEN@-->Text<!--@END_MENU_TOKEN@-->
-
 ## Topics
 
 ### Constructor
 
 - ``init(_:)``
 
-### Arithmetic
+### Operators with ok documentation
 
 - ``+(_:)``
 - ``+(_:_:)-12n6h``
@@ -25,16 +19,16 @@
 - ``*(_:_:)-8x4df``
 - ``*(_:_:)-2tri0``
 - ``*=(_:_:)``
-- ``/(_:_:)-7clhf``
-- ``/(_:_:)-2z5ei``
-- ``/=(_:_:)``
-
-### Compare
-
 - ``==(_:_:)-3a9rn``
 - ``==(_:_:)-8xsk3``
 - ``!=(_:_:)-583u7``
 - ``!=(_:_:)-9mghk``
+
+### Operators that show "Can't be found" messages
+
+- ``/(_:_:)-7clhf``
+- ``/(_:_:)-2z5ei``
+- ``/=(_:_:)``
 - ``<(_:_:)-8oqua``
 - ``<(_:_:)-4tlxm``
 - ``<=(_:_:)-7252v``
