@@ -1,5 +1,7 @@
 # ``DocCTest``
 
+Release 1.7.0
+
 ## Overview
 
 The purpose of DocCTest is to document a bug in the DocC plugin that generated this documentation.
@@ -7,7 +9,7 @@ The purpose of DocCTest is to document a bug in the DocC plugin that generated t
 The documentation was generated with the command
 
 ```swift
-swift package --toolchain /Library/Developer/Toolchains/swift-5.10-DEVELOPMENT-SNAPSHOT-2024-02-17-a.xctoolchain \
+swift package --toolchain /Library/Developer/Toolchains/swift-5.10-DEVELOPMENT-SNAPSHOT-2024-02-28-a.xctoolchain \
 --allow-writing-to-directory ./docs generate-documentation \
 --target DocCTest --disable-indexing --transform-for-static-hosting \
 --hosting-base-path DocCTest --output-path ./docs
@@ -24,7 +26,7 @@ message.
 When previewing the documentation with the command
 
 ```swift
-swift package --toolchain /Library/Developer/Toolchains/swift-5.10-DEVELOPMENT-SNAPSHOT-2024-02-17-a.xctoolchain \
+swift package --toolchain /Library/Developer/Toolchains/swift-5.10-DEVELOPMENT-SNAPSHOT-2024-02-28-a.xctoolchain \
 --disable-sandbox preview-documentation --target DocCTest
 ```
 
