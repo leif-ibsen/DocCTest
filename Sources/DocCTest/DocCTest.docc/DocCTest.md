@@ -6,7 +6,7 @@ Release 1.10.0
 
 The purpose of DocCTest is to document a bug in the DocC plugin that generated this documentation.
 
-The documentation was generated with Xcode 15.4 using the command
+The documentation was generated with Xcode 16.0 using the command
 
 ```swift
 swift package --allow-writing-to-directory ./docs generate-documentation \
