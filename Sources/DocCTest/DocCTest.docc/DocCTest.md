@@ -1,6 +1,6 @@
 # ``DocCTest``
 
-Release 1.10.0
+Release 1.10.1
 
 ## Overview
 
