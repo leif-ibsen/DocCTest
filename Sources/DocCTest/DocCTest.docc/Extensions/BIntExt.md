@@ -29,6 +29,7 @@
 
 ### Operators that show "Can't be found" messages
 
+- ``¿?(_:)``
 - ``/(_:_:)-2wsf1``
 - ``/(_:_:)-3woeb``
 - ``/=(_:_:)``

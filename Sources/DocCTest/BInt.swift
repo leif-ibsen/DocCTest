@@ -13,6 +13,8 @@ precedencegroup ExponentiationPrecedence {
 
 infix operator ** : ExponentiationPrecedence
 
+prefix operator ¿?
+
 public struct BInt {
     
     let value: Int
@@ -20,7 +22,10 @@ public struct BInt {
     public init(_ value: Int) {
         self.value = value
     }
-    
+    // ¿?
+    public static prefix func ¿?(x: BInt) -> BInt {
+        return x
+    }
     // +
     public static prefix func +(x: BInt) -> BInt {
         return x
